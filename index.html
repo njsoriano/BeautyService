@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beauty Service</title>
+    <link
+      rel="shortcut icon"
+      href="assests/img/Logo.ico.ico"
+      type="image/x-icon"
+    />
+    <!-- icon -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- estilo css -->
+    <link rel="stylesheet" href="assests/css/style.css" />
+  </head>
+
+  <body>
+    <header class="l-header" id="header">
+      <div class="navbar container flex">
+        <div class="brand"></div>
+        <div class="nav" id="nav">
+          <ul class="nav__menu">
+            <li class="nav__item">
+              <a href="#" class="nav__link active-link">Inicio</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">Quienes somos</a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link">Servicios</a>
+            </li>
+            <li class="nav__item">
+              <a href="#package" class="nav__link">Productos</a>
+            </li>
+            <li class="nav__item">
+              <a href="#gallery" class="nav__link">Galeria</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contacto</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="row">
+            <div class="hero__img">
+              <img src="assests/img/home-image.png" alt="" />
+            </div>
+            <div class="hero__content">
+              <h1>Salón de belleza<br /><span>Melanie Mite</span></h1>
+              <p>
+                En nuestro salón de belleza, transformamos tu estilo y realzamos
+                tu belleza natural. Ofrecemos una amplia gama de servicios,
+                desde cortes de pelo y peinados modernos hasta manicures y
+                tratamientos faciales personalizados. Ven y descubre el arte de
+                la belleza con nosotros.
+              </p>
+              <a href="#" class="btn btn__outline"
+                ><i class="bx bxl-whatsapp"></i>Agende su Cita</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about section" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="section__title">
+              <h1>Quienes Somos</h1>
+              <span>Misión y Visión</span>
+            </div>
+            <div class="about__detail">
+              <div class="about__detail__content">
+                <div class="about__img">
+                  <img src="assests/img/about-img.jpg" alt="" />
+                </div>
+                <div class="about__descripion">
+                  <p>
+                    Como <b>misión</b> nos comprometemos a proporcionar a
+                    nuestros clientes una experiencia excepcional de cuidado
+                    personal y bienestar. Nos esforzamos por ofrecer servicios
+                    de alta calidad que resalten la belleza única de cada
+                    individuo.
+                  </p>
+                  <p>
+                    Nuestra <b>visión</b> es ir más allá de lo convencional,
+                    ofreciendo servicios personalizados que no solo embellezcan
+                    a nuestros clientes, sino que también les brinden una
+                    sensación de bienestar y confianza interior.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="services section" id="services">
+        <div class="services__content">
+          <div class="row">
+            <div class="section__title">
+              <h1>Servicios</h1>
+              <span>Que realizamos</span>
+            </div>
+          </div>
+          <div class="services__content__descripion grid container">
+            <div class="box">
+              <div class="inner">
+                <img src="assests/img/servicos/manicure.png" alt="" />
+                <p>Manicure</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="inner">
+                <img src="assests/img/servicos/pedicure.png" alt="" />
+                <p>Pedicure</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="inner">
+                <img src="assests/img/servicos/maquiagem.png" alt="" />
+                <p>Maquillaje</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="inner">
+                <img src="assests/img/servicos/pentado.png" alt="" />
+                <p>Peinado</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="inner">
+                <img src="assests/img/servicos/corte.png" alt="" />
+                <p>Corte de cabello</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="inner">
+                <img src="assests/img/servicos/sobrancelha.png" alt="" />
+                <p>Depilacion de ceja</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="inner">
+                <img src="assests/img/servicos/depilacao.png" alt="" />
+                <p>Depilacion de cera</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="inner">
+                <img src="assests/img/servicos/limpeza.png" alt="" />
+                <p>Limpieza facial</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="package section" id="package">
+        <div class="package_-content">
+          <div class="row">
+            <div class="section__title">
+              <h1>Productos</h1>
+              <span>Para cada momento especial</span>
+            </div>
+          </div>
+          <div class="package__cards row container">
+            <div class="card">
+              <div class="card__title">
+                <h1>Peinados</h1>
+              </div>
+              <div class="card__items">
+                <div class="item">
+                  <i class="bx bx-message-square-check check__icon"></i>
+                  <p>Sencillo</p>
+                  <b>$25</b>
+                </div>
+                <div class="item">
+                  <i class="bx bx-message-square-check check__icon"></i>
+                  <p>Casual</p>
+                  <b>$30</b>
+                </div>
+                <div class="item">
+                  <i class="bx bx-message-square-check check__icon"></i>
+                  <p>Fiesta<span>(Elegante)</span></p>
+                  <b>$55</b>
+                </div>
+                <div class="item">
+                  <i class="bx bx-message-square-x x__icon"></i>
+                  <p class="not">
+                    Peinados de novia<span><b>(Casual-Sencillo)</b></span>
+                  </p>
+                </div>
+                <div class="item">
+                  <i class="bx bx-message-square-x x__icon"></i>
+                  <p class="not">Recogido Casual</p>
+                  <b>$70</b>
+                </div>
+                <button class="btn">Reservar Cita</button>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__title">
+                <h1>Manicure</h1>
+              </div>
+              <div class="card__items">
+                <div class="item">
+                  <i class="bx bx-message-square-check check__icon"></i>
+                  <p>Pintado Sencillo</p>
+                  <b>$11</b>
+                </div>
+                <div class="item">
+                  <i class="bx bx-message-square-check check__icon"></i>
+                  <p>Uñas Sencillas<span>(tradicional francesa)</span></p>
+                  <b>$15</b>
+                </div>
+                <div class="item">
+                  <i class="bx bx-message-square-check check__icon"></i>
+                  <p>Acrilico<span>(1 area)</span></p>
+                  <b>$20</b>
+                </div>
+                <div class="item">
+                  <i class="bx bx-message-square-check check__icon"></i>
+                  <p>Permanente</p>
+                  <b>$17</b>
+                </div>
+                <div class="item">
+                  <i class="bx bx-message-square-check check__icon"></i>
+                  <p>Manicura de Gel Acrílico</p>
+                </div>
+                <button class="btn">Reservar Cita</button>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__title">
+                <h1>Pedicure</h1>
+              </div>
+              <div class="card__items">
+                <div class="item">
+                  <i class="bx bx-message-square-check check__icon"></i>
+                  <p>Pedicura Básica</p>
+                  <b>$20</b>
+                </div>
+                <div class="item">
+                  <i class="bx bx-message-square-check check__icon"></i>
+                  <p>Pedicura SPA</p>
+                  <b>$35</b>
+                </div>
+                <div class="item">
+                  <i class="bx bx-message-square-check check__icon"></i>
+                  <p>Pedicura de Gel<span>(tradicional francesa)</span></p>
+                  <b>$40</b>
+                </div>
+                <div class="item">
+                  <i class="bx bx-message-square-check check__icon"></i>
+                  <p>Pedicura con Diseño</p>
+                  <b>$40</b>
+                </div>
+                <button class="btn">Reservar Cita</button>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__title">
+                <h1>Maquillaje</h1>
+              </div>
+              <div class="card__items">
+                <div class="item">
+                  <i class="bx bx-message-square-check check__icon"></i>
+                  <p>Maquillaje Diario</p>
+                  <b>$20</b>
+                </div>
+                <div class="item">
+                  <i class="bx bx-message-square-check check__icon"></i>
+                  <p>Maquillaje para Eventos</p>
+                  <b>$30 </b>
+                </div>
+                <div class="item">
+                  <i class="bx bx-message-square-check check__icon"></i>
+                  <p>Maquillaje de noche</p>
+                  <b>$40-$80</b>
+                </div>
+                <div class="item">
+                  <i class="bx bx-message-square-check check__icon"></i>
+                  <p>Maquillaje de Fantasía</p>
+                  <b>$50-$150</b>
+                </div>
+                <div class="item">
+                  <i class="bx bx-message-square-check check__icon"></i>
+                  <p>Maquillaje de Novia</p>
+                  <b>$100-$300</b>
+                </div>
+                <button class="btn">Reservar Cita</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="gallery section" id="gallery">
+        <div class="gallery__content">
+          <div class="row">
+            <div class="section__title">
+              <h1>Galeria</h1>
+              <span>Trabajos realizados</span>
+            </div>
+          </div>
+          <div class="gallery__list__img row container">
+            <div class="gallery__img">
+              <img src="assests/img/img-insta/foto1.png" alt="" />
+            </div>
+            <div class="gallery__img">
+              <img src="assests/img/img-insta/foto2.png" alt="" />
+            </div>
+            <div class="gallery__img">
+              <img src="assests/img/img-insta/foto4.png" alt="" />
+            </div>
+            <div class="gallery__img">
+              <img src="assests/img/img-insta/foto5.png" alt="" />
+            </div>
+            <div class="gallery__img">
+              <img src="assests/img/img-insta/foto6.png" alt="" />
+            </div>
+            <div class="gallery__img">
+              <img src="assests/img/img-insta/foto7.jpg" alt="" />
+            </div>
+          </div>
+          <button class="btn">ver mas</button>
+        </div>
+      </section>
+      <section class="testimonials section">
+        <div class="testimonials__content">
+          <div class="row">
+            <div class="section__title">
+              <h1>Testimonios</h1>
+              <span
+                >Testimonios de nuestros clientes hacia nuestro trabajo</span
+              >
+            </div>
+          </div>
+          <div class="testimonials__card container grid">
+            <div class="testimonials__item flex">
+              <div class="testimonials__img">
+                <img src="assests/img/depoimentos/depoimento-1.png" alt="" />
+              </div>
+              <div class="testimonials__box">
+                <div class="testimonials__name">
+                  <h1>Andrea</h1>
+                  <i class="bx bxs-star star__icon"></i>
+                  <i class="bx bxs-star star__icon"></i>
+                  <i class="bx bxs-star star__icon"></i>
+                  <i class="bx bxs-star star__icon"></i>
+                  <i class="bx bxs-star star__icon"></i>
+                </div>
+                <div class="testimonials__descripition">
+                  <p>
+                    Estoy muy contenta con mi pedicura. El personal es muy
+                    atento y el resultado fue espectacular. ¡Mis pies nunca han
+                    estado tan bien cuidados!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="testimonials__item flex">
+              <div class="testimonials__img">
+                <img src="assests/img/depoimentos/depoimento-2.png" alt="" />
+              </div>
+              <div class="testimonials__box">
+                <div class="testimonials__name">
+                  <h1>Mia</h1>
+                  <i class="bx bxs-star star__icon"></i>
+                  <i class="bx bxs-star star__icon"></i>
+                  <i class="bx bxs-star star__icon"></i>
+                  <i class="bx bxs-star star__icon"></i>
+                  <i class="bx bxs-star star__icon"></i>
+                </div>
+                <div class="testimonials__descripition">
+                  <p>
+                    Me encantó el maquillaje para mi boda, ¡me hizo sentir como
+                    una princesa! Todo el mundo me comentó lo hermosa que me
+                    veía. Definitivamente volveré para futuros eventos.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="testimonials__item flex">
+              <div class="testimonials__img">
+                <img src="assests/img/depoimentos/depoimento-1.png" alt="" />
+              </div>
+              <div class="testimonials__box">
+                <div class="testimonials__name">
+                  <h1>Luciana</h1>
+                  <i class="bx bxs-star star__icon"></i>
+                  <i class="bx bxs-star star__icon"></i>
+                  <i class="bx bxs-star star__icon"></i>
+                  <i class="bx bxs-star star__icon"></i>
+                  <i class="bx bxs-star star__icon"></i>
+                </div>
+                <div class="testimonials__descripition">
+                  <p>
+                    Corté y teñí mi cabello y quedé fascinada con el resultado.
+                    El estilista entendió exactamente lo que quería y superó mis
+                    expectativas. ¡Gracias!"
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="testimonials__item flex">
+              <div class="testimonials__img">
+                <img src="assests/img/depoimentos/depoimento-2.png" alt="" />
+              </div>
+              <div class="testimonials__box">
+                <div class="testimonials__name">
+                  <h1>Patricia</h1>
+                  <i class="bx bxs-star star__icon"></i>
+                  <i class="bx bxs-star star__icon"></i>
+                  <i class="bx bxs-star star__icon"></i>
+                  <i class="bx bxs-star star__icon"></i>
+                  <i class="bx bxs-star star__icon"></i>
+                </div>
+                <div class="testimonials__descripition">
+                  <p>
+                    Las uñas me quedaron hermosas. El diseño fue exactamente lo
+                    que quería y la atención fue excepcional. ¡Recomiendo este
+                    lugar al 100%!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer" id="contact">
+      <div class="footer__list section container grid">
+        <div class="footer__data">
+          <h1>
+            <a href="#"
+              ><img
+                src="assests/img/Logo__1.ico
+"
+                alt=""
+            /></a>
+          </h1>
+          <div class="footer__data-social">
+            <a href=""><i class="bx bxl-facebook social__icon"></i></a>
+            <a href=""><i class="bx bxl-instagram social__icon"></i></a>
+            <a href=""><i class="bx bxl-whatsapp social__icon"></i></a>
+          </div>
+        </div>
+        <div class="footer__data">
+          <h2>Dirección</h2>
+          <p>Duran-Ecuador <br />Ciudadela el Recreo</p>
+        </div>
+        <div class="footer__data">
+          <h2>Horario</h2>
+          <p>09:00 a 18:00</p>
+        </div>
+        <div class="footer__data">
+          <h2>Contacto</h2>
+          <p>(593) 989697779 Melanie.miteo@ug.edu.ec</p>
+        </div>
+      </div>
+      <div class="copy">
+        <p>© 2024 Beauty Service. Todos los derechos reservados.</p>
+        <span>🤎</span>
+      </div>
+    </footer>
+    <!-- javascript -->
+    <script src="assests/js/style.js"></script>
+  </body>
+</html>
